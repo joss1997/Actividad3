@@ -55,7 +55,8 @@ int main(){
 	alien * l;
 	l = crear();
 	//prueba aqui va el imprimir
-	printf("%s\n",l->nombre);
+	imprimir(l);
+	
 	
 	
 	
