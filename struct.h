@@ -35,3 +35,4 @@ typedef struct idiomas_t{
 	} idiomas;
 
 alien * crear ();
+void imprimir(alien * l);
