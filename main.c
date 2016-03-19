@@ -51,6 +51,12 @@ int main(){
 	printf("%c\n",lista_aliens->idiomas->tipo);
 	printf("Simbolos:\n "); 
 	printf("%d\n",lista_aliens->idiomas->simbolos);
+
+	alien * l;
+	l = crear();
+	//prueba aqui va el imprimir
+	printf("%s\n",l->nombre);
+	
 	
 	
 	
