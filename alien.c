@@ -96,7 +96,22 @@ alien * crear (){
 	return lista;
 	}	
 
-void imprimir(){
+
+void imprimir(alien * l){
+
+	printf("--------Alien---------");
+	printf("\nNombre: %s",l->nombre);
+	printf("\nID: %d",l->id);
+	printf("\nEspecie: %c",l->especie);
+	printf("\n-------Planeta--------");
+	printf("\nNombre: %s",l->planetas->nombre);
+	printf("\nCodigo: %d",l->planetas->starwars_code);
+	printf("\nAgua: %c",l->planetas->agua);
+	printf("\nOxigeno: %c",l->planetas->oxigeno);
+	printf("\n--------Idioma--------");
+	printf("\nNombre: %s",l->idiomas->nombre);
+	printf("\nTipo: %c",l->idiomas->tipo);
+	printf("\nSimbolos: %d",l->idiomas->simbolos);
 
 	
 
