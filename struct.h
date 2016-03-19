@@ -33,3 +33,5 @@ typedef struct idiomas_t{
 	struct planeta_t * planetas;
 
 	} idiomas;
+
+alien * crear ();
